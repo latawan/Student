@@ -14,6 +14,15 @@ public class Student {
     private String name;
     private double GPA;
     private String email;
+    private int ID;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
 
     public double getGPA() {
         return GPA;
