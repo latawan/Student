@@ -13,6 +13,7 @@ public class Student {
     
     private String name;
     private double GPA;
+    private String email;
 
     public double getGPA() {
         return GPA;
@@ -29,7 +30,7 @@ public class Student {
     public void setEmail(String email) {
         this.email = email;
     }
-    private String email;
+    
     
      /* Get the value of name
      *
